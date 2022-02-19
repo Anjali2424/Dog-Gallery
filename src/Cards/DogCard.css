@@ -9,37 +9,26 @@ body{
     margin-right: 7px;
     padding:10px;
   } 
-  .content{
-      text-align: center;
-  }
   img{
       height: 200px;
       width: 200px;
   }
-    .heading-dog{
-      text-align: center;
-      color: black;
-      background-color: lightblue;
-      height: 60px;
-      position: relative;
-      top: 2px;
-     
-    }
-    .custom-search{
-      position: absolute;
+    .Heading-content{
+      background-color: lightskyblue;
+     height: 80px;
+     display: flex;
+     justify-content: center;
+ }
+ button{
+    height: 40px;
+     background-color: green;
+     color: white;
+     cursor: pointer;
+     position: absolute;
       right: 20px;
-      top: 2px;
-      height: 30px;
-  
+      top: 15px;
       
-    }
-    button{
-      height: 40px;
-      border-radius:3px;
-      background-color: green;
-      color: white;
-  
-    }
+ }
     input[type=text] {
       width: 400px;
       padding: 12px 20px;

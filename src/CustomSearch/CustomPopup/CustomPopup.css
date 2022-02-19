@@ -1,0 +1,83 @@
+.popup-container{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-box{
+    width: 650px;
+    height: 500px;
+    background-color: white;
+    position: relative;
+    overflow: scroll;
+}
+
+.cancel-symbol{
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.heading-popup{
+    text-align: center;
+    background-color: lightgray;
+    margin-top: 0px;
+    width: 700px;
+    height: 50px;
+}
+.text-center{
+    position: relative; 
+    top: 20px;
+    left: -300px;
+}
+.modal-dog-name{
+    background-color:#EEE;
+    text-align:left;
+    padding:10px;
+    font-size:20px;
+}
+.modal-heading{
+    text-align:left;
+    font-size:15px;
+    margin:10px 10px 5px 10px;
+    font-weight:500;
+}
+.search-modal-heading{
+    text-align:left;
+    font-size:15px;
+    margin:30px 10px 5px 10px;
+    font-weight:500;
+}
+.modal-search{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
+.modal-search-box{
+    padding:10px 0;
+     margin-top: 20px; 
+     margin-left: 60px;
+    }
+.modal-search-box input, .modal-search-box select{
+    padding:10px;
+    width:200px;
+}
+.search-result{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+}
+.search-result-box{
+    padding:10px;
+    display:inline;
+    margin:auto;
+}
+.search-result-box img{
+    width: 100px; 
+    height: 100px;
+}
